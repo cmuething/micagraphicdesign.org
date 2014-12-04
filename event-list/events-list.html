@@ -16,11 +16,12 @@
 
         <!-- Skeleton
         <link rel="stylesheet" href="css/skeleton.css">-->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/helpers.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body class="layout event list">
+    <body class="layout event list ui">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -30,62 +31,123 @@
 
             <header class="masthead" role="banner">
               <div class="brand">
-              	<a class="mark" href="/" title="MICA Graphic Design">MICA Graphic Design</a>
+              	<a class="mark" href="/" title="MICA Graphic Design"><img src="img/micalogo.png"></a>
               </div> <!-- /.brand -->
               
               
-              <nav class="navigation menus" role="navigation">
-                <strong class="visuallyhidden">Main Navigation</strong>
-                <ul class="menu level-1" role="menubar">
-                  <li class="item">
-                    <a href="#Events" class="link" title="Events">Events</a>
-                  </li>
-                  <li class="item">
-                    <a href="#" class="link" title="Events">Blog</a>
-                  </li>
-                  <li class="item">
-                    <a href="#" class="link" title="Events">Current Work</a>
-                  </li>
-                  <li class="item">
-                    <a href="#Profiles" class="link" title="Profiles">Profiles</a>
-                  </li>
-                  <li class="item">
-                    <a href="#" class="link" title="Opportunities">Opportunities</a>
-                  </li>
-                </ul><!-- /.menu -->
-              </nav>
-              
-              
               <nav class="utility menus">
-                <ul class="menu">
-                  <li class="item">
+              
+             <!--  <input type="checkbox" id="navbar-checkbox" class="navbar-checkbox"> -->
+              
+                 <ul class="menu">
+                  <!--<li class="item">
                     <a href="#News" class="link">News</a>
-                  </li>
-                  <li class="item">
-                    <a href="#Archives" class="link">Archives</a>
-                  </li>
-                  <li class="item">
-                    <a href="#About" class="link">About</a>
-                  </li>
-                  <li class="item">
-                    <a href="#Contact" class="link">Contact</a>
-                  </li>
-                  <li class="item">
-                    <a href="#Login" class="link">Login</a>
-                  </li>
-                </ul>
+                  </li>-->
                 
-                
-                <form action="#" class="form" role="search">
+                  <li class="item">
+                    <a href="#About" id="utility-about" class="link">About</a>
+                    
+                    <div class="cbp-spmenu" id="cbp-spmenu-s3">
+              		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              
+                  </li>
+                  <li class="item">
+                    <a href="#Contact"  id="utility-contact" class="link">Contact</a>
+                    
+                    <div class="cbp-spmenu" id="cbp-spmenu-s4">
+              		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+                    
+                  </li>
+                   <li class="item">
+                    <a href="#Subscribe" id="utility-subscribe" class="link">Subscribe</a>
+                    
+                     <div class="cbp-spmenu" id="cbp-spmenu-s5">
+              		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+
+                  </li>
+                  <li class="item">
+                    <a href="#Archives" id="utility-archives" class="link">Archives</a>
+                    
+                    <div class="cbp-spmenu" id="cbp-spmenu-s6">
+              		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+
+                    
+                  </li>
+                  <li class="item">
+                    <a href="#Login" id="utility-login" class="link">Login</a>
+                    
+                    <div class="cbp-spmenu" id="cbp-spmenu-s7">
+              		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+
+                    
+                  </li>
+                   <li class="item">
+                    <a href="#Search" id="utility-search" class="link fa fa-search">Search</a>
+                    
+                    <div class="cbp-spmenu" id="cbp-spmenu-s8">
+                    
+                    <form action="#" class="form" role="search">
                   <div class="field">
                     <label for="masthead-search"></label>
                     <input id="masthead-search" type="text" placeholder="Search the Site" name="s"></div>
                   <div class="action">
                     <button class="control" type="submit">Search</button>
                   </div>
-                </form>
-              </nav><!-- /.utility menus -->
-            
+                  </form>
+                
+                    </div>
+                    
+                  </li>
+                </ul> 
+                
+                <label for="navbar-checkbox" class="navbar-handle"></label>              
+               
+                
+              </nav><!-- /.utility menus -->      
+              
+              
+              
+              <nav class="navigation menus" role="navigation">
+                <strong class="visuallyhidden">Main Navigation</strong>
+                <ul class="menu level-1" role="menubar">
+                  <li class="item">
+                    <a href="#Events" class="link" title="Events">EVERYTHING</a>
+                  </li>
+                  <li class="item">
+                    <a href="#" class="link" title="Events">EVENTS</a>
+                  </li>
+                  <li class="item">
+                    <a href="#" class="link" title="Events">BLOG</a>
+                  </li>
+                   <li class="item">
+                    <a href="#" class="link" title="Events">WORK</a>
+                  </li>
+                  <li class="item dropdown ui">
+                    <a href="#Profiles" class="link" title="Profiles">PROFILES</a>
+                    <!--
+<div class="dropdown content">
+                      <ul class="menu ui">
+                        <li class="item"><a href="#" class="link">Contributors</a></li>
+                        <li class="item"><a href="#" class="link">Students</a></li>
+                        <li class="item"><a href="#" class="link">Faculty</a></li>
+                      </ul>
+                    </div>
+-->
+                  </li>
+                 <!--
+	                 <li class="item">
+                    <a href="#" class="link" title="Opportunities">Opportunities</a>
+                  </li>
+-->
+                </ul><!-- /.menu -->
+              </nav>
+
+               
               <nav class="social menus">
                 <ul class="menu">
                   <li class="item">
@@ -106,8 +168,30 @@
                 </ul>
               </nav></header><!-- /.masthead -->
 
-            <main class="page" role="main">
+
+<div class="enter"> <img src="img/mica_gd.svg"></div>
+
+
+<main class="page" role="main">
             
+<div class="side">
+
+
+  <section class="spotify">
+    <div class="item playlist">
+      <div class="header">
+        <h1 class="heading"><a href="#" class="permalink">We’re Not Dead Yet: Mixtap from the Class of 2012</a></h1><!-- /.heading -->
+        <div class="byline"><em class="type playlist">Playlist by:<a href="#ronin" class="link">Ronin Wood</a></em></div>
+      </div><!-- /.header -->
+      <div class="copy">
+        <iframe src="https://embed.spotify.com/?uri=https://play.spotify.com/user/britesprite/playlist/1fgp4JAEyuHbMJbNs2xuos" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </div>
+    </div><!-- /.item playlist -->
+  </section><!-- /.spotify -->
+
+
+</div>
+
 
 <div class="main">
 
@@ -506,7 +590,7 @@
 
 
 
-<div class="sub">
+<div class="sub content ui">
   <nav class="formats menus segment">
     <ul class="menu">
       <li class="item"><a href="#" class="link">Lecture</a></li>
@@ -519,7 +603,7 @@
   <div class="subscribe segment">
     <!-- Begin MailChimp Signup Form -->
     <div class="email" id="mc_embed_signup">
-    <form action="//baltimorebrew.us4.list-manage.com/subscribe/post?u=e16fe3f86f4146722d64dcc06&amp;id=bfe8fc4b48" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
       <h2>Subscribe to our mailing list</h2>
     <div class="mc-field-group">
@@ -536,7 +620,8 @@
     </form>
     </div>
     
-    <!--End mc_embed_signup-->    <a href="#" class="rss">Subscribe to RSS</a>
+    <!--End mc_embed_signup-->
+    <a href="#" class="rss">Subscribe to RSS</a>
   </div> <!-- /.subscribe -->
 
 
@@ -809,8 +894,8 @@
 
           <footer class="footer">
           
-            <nav class="departments menus">
-            	<ul class="menu">
+            <nav class="departments menus ui">
+            	<ul class="menu ui">
             		<li class="item">
             			<a class="link" href="http://www.mica.edu" title="MICA.edu">MICA.edu</a>
             		</li>
@@ -822,6 +907,7 @@
             		</li>
             	</ul>
             </nav>
+          
             <p class="legal">&copy; Maryland Institute College of Art</p>
           </footer><!-- /.footer -->        </div><!-- /.canvas -->
 
