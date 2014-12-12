@@ -62,3 +62,29 @@ $(function () {
     $('html').toggleClass('js-search-active');
   });
 });
+
+
+$(function () {
+  
+  var $collapseTarget = $('.collapse-toggle');
+  var $collapse = $('.collapse');
+  var clicked = false;
+
+
+  $collapseTarget.on('click', function (event) {
+
+    event.preventDefault();
+    $collapse.toggleClass('active');
+
+    if (clicked === false) {
+      $(this).html('Close Menu');
+      clicked = true;
+    } else {
+        $(this).html('Open Menu');
+        clicked = false;
+    }
+
+  });
+  
+});
+
