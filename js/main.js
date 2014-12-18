@@ -77,10 +77,10 @@ $(function () {
     $collapse.toggleClass('active');
 
     if (clicked === false) {
-      $(this).html('Close Menu');
+      $(this).html('<i class="fa fa-minus-square"></i>');
       clicked = true;
     } else {
-        $(this).html('Open Menu');
+        $(this).html('<i class="fa fa-plus-square"></i>');
         clicked = false;
     }
 

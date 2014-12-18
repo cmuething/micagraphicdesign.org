@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="css/skeleton.css">-->
         <link rel="stylesheet" href="css/helpers.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/font-awesome-4.2.0/css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body class="layout event detail ui">
@@ -28,20 +29,30 @@
         <div class="canvas">
           <div class="shim">
 
+	       
             <header class="masthead" role="banner">
+            
+            <div class="top-bar">
+            
               <div class="brand">
               	<a class="mark" href="/" title="MICA Graphic Design"></a>
               </div> <!-- /.brand -->
-                  
+            
+            </div>
+            
+            <button class="collapse-toggle">
+              <i class="fa fa-plus-square"></i>
+            </button>
+            
+            <div class="collapse">
             
               <nav class="utility menus">
                 <ul class="menu">
-                
                 <li class="item">
-                    <a href="#Search" id="utility-search" class="link">Search</a>
-                    
-                    <div class="cbp-spmenu" id="cbp-spmenu-s8">
-                    
+                <a href="#Search" id="utility-search" class="link">Search</a>
+                
+                <div class="cbp-spmenu" id="cbp-spmenu-s8">
+                
                 <form action="#" class="form" role="search">
                   <div class="field">
                     <label for="masthead-search"></label>
@@ -50,10 +61,12 @@
                     <button class="control" type="submit">Search</button>
                   </div>
                 </form>
+                
                 </div>
+                
                 </li>
                 
-                 <li class="item">
+                <li class="item">
                     <a href="#Login" id="utility-login" class="link">Login</a>
                     
                     <div class="cbp-spmenu" id="cbp-spmenu-s7">
@@ -61,7 +74,7 @@
               </div>
                     
                   </li>
-
+                
                   <li class="item">
                     <a href="#Subscribe" id="utility-subscribe" class="link">Subscribe</a>
                     
@@ -85,20 +98,24 @@
         <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
         </div>
     </form>
-        </div>
-        </div>
-        </div>
-
+              </div>
+              
+                    </div>
+                    
+                    </div>
+                    
                   </li>
-                  
                   <li class="item">
                     <a href="#Archives" id="utility-archives" class="link">Archives</a>
+                    
                     <div class="cbp-spmenu" id="cbp-spmenu-s6">
               		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
-                   </li>
-                   
-                   <li class="item">
+                    
+                  </li>
+                  
+                  </li>
+                  <li class="item">
                     <a href="#Contact" id="utility-contact" class="link">Contact</a>
                     
                     <div class="cbp-spmenu" id="cbp-spmenu-s4">
@@ -106,32 +123,36 @@
               </div>
                     
                   </li>
-                  <li class="item dropdown ui">
+                  
+                  <li class="item">
                     <a href="#About" id="utility-about" class="link">About</a>
-                    
-                    <div class="cbp-spmenu" id="cbp-spmenu-s3">
+                     
+                     
+                     <div class="cbp-spmenu" id="cbp-spmenu-s3">
               		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
+
                     
-                    <!--
-<div class="dropdown content">
+                   <!--
+ <div class="dropdown content">
                       <ul class="menu ui">
                         <li class="item"><a href="#" class="link">Purpose</a></li>
                         <li class="item"><a href="#" class="link">MICA Design League</a></li>
                       </ul>
                     </div>
 -->
-                  </li>
-                                  
-                </ul>
-                                
+                  
+                                  </ul>
+            
+                
               </nav><!-- /.utility menus -->
             
-            <nav class="navigation menus" role="navigation">
-                <strong class="visuallyhidden">Main Navigation</strong>
+              
+              <nav class="navigation menus" role="navigation">
+                <strong class="visuallyhidden">MAIN NAVIGATION</strong>
                 <ul class="menu level-1" role="menubar">
-                	<li class="item">
-                    <a href="#" class="link" title="Opportunities">EVERYTHING</a>
+                  <li class="item">
+                    <a href="#Everything" class="link" title="Events">EVERYTHING</a>
                   </li>
                   <li class="item">
                     <a href="#Events" class="link" title="Events">EVENTS</a>
@@ -154,32 +175,18 @@
                     </div>
 -->
                   </li>
+                  <!--
+<li class="item">
+                    <a href="#" class="link" title="Opportunities">Opportunities</a>
+                  </li>
+-->
                 </ul><!-- /.menu -->
               </nav>
 
-            
-              <nav class="social menus">
-                <ul class="menu">
-                  <li class="item">
-                    <a class="link" href="https://twitter.com/MICA_GD"  title="Twitter"><i class="fa fa-twitter-square"></i></a>
-                  </li>
-                  <li class="item">
-                    <a class="link" href="http://micagraphicdesign.tumblr.com/"  title="Tumblr"><i class="fa fa-tumblr-square"></i></a>
-                  </li>
-                  <li class="item">
-                    <a class="link" href="http://vimeo.com/micagd"  title="Vimeo"><i class="fa fa-vimeo-square"></i></a>
-                  </li>
-                  <li class="item">
-                    <a class="link" href="http://portfolios.mica.edu/search?mica_major=797&amp;field=&amp;content=projects&amp;sort=&amp;time=week"  title="Behance"><i class="fa fa-behance-square"></i></a>
-                  </li>
-                  <li class="item">
-                    <a class="link" href="http://flickr.com/groups/gdmica"  title="Flickr"><i class="fa fa-flickr"></i></a>
-                  </li>
-                </ul>
-      </nav>
+              </div>
+              
+              </header>
 
-
-</header><!-- /.masthead -->
 
             <main class="page" role="main">
             
@@ -189,7 +196,7 @@
     
     <div class="permalink">
     
-      <img class="src" src="http://micagraphicdesign.org/wp-content/uploads/2014/10/sven-470x608.jpg" alt="">
+      <img src="http://micagraphicdesign.org/wp-content/uploads/2014/10/sven-470x608.jpg" alt="" class="src">
       
     </div>
     
